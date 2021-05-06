@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  h1 {
+    position: relative;
+    top: 2rem;
+    left: 16rem;
+    font-size: 3rem;
+    font-family: The_Avengers;
+  }
+  p {
+    position: relative;
+    top: 6rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+  }
+  img {
+    margin: 0rem 4rem 3rem 5rem;
+    max-width: 40%;
+  }
+  span {
+    margin: 2rem 2rem 0 auto;
+    font-size: 2rem;
+  }
+}

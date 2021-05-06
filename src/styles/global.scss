@@ -1,0 +1,37 @@
+@font-face {
+  font-family: The_Avengers;
+  src: url('../fonts/The_Avengers/AVENGEANCE_HEROIC_AVENGER.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+}
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; //equivale a 15px
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; //equivale a 14px
+  }
+}
+
+body {
+  background: #800000;
+}
+body,
+input,
+textarea,
+button {
+  font: 500 1rem sans-serif;
+}
+
+h2 {
+  font-size: 1.5 rem;
+}
+button {
+  cursor: pointer;
+}
